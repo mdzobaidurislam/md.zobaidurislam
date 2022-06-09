@@ -27,12 +27,16 @@ const ReactProject = () => {
   return (
     <div class="row work-filter mt-5">
       {category.map((item, index) => (
-        <div class="col-lg-4" key={item._id}>
+        <div class="col-md-6 col-lg-4" key={item._id}>
           <Link to={`/details/${item._id}`}>
             <div class="work-items mt-4">
               <div class="work-thum">
                 <img src={item.img} class="img-fluid" alt="merkury" />
               </div>
+              <div
+                className="des"
+                dangerouslySetInnerHTML={{ __html: item.description }}
+              />
               <div class="work-dateils">
                 <p class="mb-2">{item.name}</p>
                 <h5 class="m-0 orangeText">Details</h5>

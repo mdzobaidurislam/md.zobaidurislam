@@ -162,6 +162,11 @@ button.navbar-toggler.collapsed {
   color: #fff;
 }
 
+.custom-nav .navbar-light .navbar-toggler {
+  color: rgb(244 232 232);
+  border-color: rgba(0, 0, 0, .1);
+}
+
 /* Services  */
 .services-items {
   border: 1px solid #e2e2e2;

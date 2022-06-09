@@ -27,10 +27,10 @@ const Work = () => {
                 <NavLink to="/all">All</NavLink>
               </li>
               <li class="list-inline-item">
-                <NavLink to="/html">Html</NavLink>
+                <NavLink to="/react">React</NavLink>
               </li>
               <li class="list-inline-item">
-                <NavLink to="/react">React</NavLink>
+                <NavLink to="/html">Html</NavLink>
               </li>
               <li class="list-inline-item">
                 <NavLink to="/">Node Js</NavLink>

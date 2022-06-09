@@ -3,6 +3,8 @@ import { BiPhoneCall } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
 import { GrContact } from "react-icons/gr";
 import "./Contact.css";
+import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
+
 const Contact = () => {
   return (
     <section class="section" id="contact">
@@ -22,9 +24,9 @@ const Contact = () => {
         </div>
 
         <div class="row justify-content-center mt-5">
-          <div className="col-lg-6">
+          <div className="col-md-12 col-lg-6 ">
             <div class="row justify-content-center   pb-3">
-              <div class="col-lg-12">
+              <div class="col-md-4 col-lg-12">
                 <div class="contact_details mt-2">
                   <div class="ser-icon">
                     <BiPhoneCall />
@@ -37,7 +39,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-12">
+              <div class="col-md-4  col-lg-12">
                 <div class="contact_details mt-2">
                   <div class="ser-icon">
                     <MdEmail />
@@ -50,7 +52,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-12">
+              <div class="col-md-4 col-lg-12">
                 <div class="contact_details mt-2">
                   <div class="ser-icon">
                     <GrContact />
@@ -64,8 +66,26 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+            <div className="social_icon">
+              {" "}
+              <a
+                target="_blank"
+                href="https://web.facebook.com/freelancerjami/"
+              >
+                <AiFillFacebook />
+              </a>
+              <a target="_blank" href="https://github.com/mdzobaidurislam">
+                <AiFillGithub />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/mdzobaidurislam/"
+              >
+                <AiFillLinkedin />
+              </a>
+            </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-md-12  col-lg-6">
             <div class="contact-form-area">
               <form action="https://submit-form.com/yb5uwjxM">
                 <div class="row">

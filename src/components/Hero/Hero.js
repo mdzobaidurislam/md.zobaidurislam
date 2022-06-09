@@ -4,7 +4,7 @@ import "./Hero.css";
 import { Link, NavLink } from "react-router-dom";
 const Hero = () => {
   return (
-    <section className="hero_section">
+    <section className="hero_section" id="home">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -24,8 +24,11 @@ const Hero = () => {
                 </div>
                 <div class="hero_des">
                   <p>
-                    I'm creative designer based in New York, and I'm very
-                    passionate and dedicated to my work.
+                    I'm a full-stack web developer and my passion is coding.{" "}
+                    <br /> I want to improve my coding skills by joining a
+                    company where <br /> I can learn new skills and
+                    technologies. I can work well both <br /> independently and
+                    as a part of a team.
                   </p>
                 </div>
                 <div className="hero_btn d-flex">

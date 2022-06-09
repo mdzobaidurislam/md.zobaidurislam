@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 import ab from "./../../logo/ab.jpg";
-import { FiFacebook } from "react-icons/fi";
 const About = () => {
   return (
     <section class="section" id="about">
@@ -21,33 +20,38 @@ const About = () => {
                 <h3>I Can Developed Anything You Want</h3>
               </div>
               <p class="mt-2">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
+                I have confidence in my skill. I can work with you depending on
+                my skill. Besides, I was learning PHP for 1 year and others
+                languages. Some work was done for the practice.
               </p>
               <p class="mt-2">
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English.
+                I have confidence in my skill. I can work with you depending on
+                my skill. Besides, I was learning PHP for 1 year. Some work was
+                done for the practice.
               </p>
               <p class="mt-2">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable.
+                <strong>Front-End Technologies:</strong> React, React Hook,
+                React Bootstrap, HTML5, CSS3, BootStrap, JavaScript,Tailwind CSS{" "}
+                <br />
+                <br />
+                <strong>Back-End Technologies:</strong> NodeJS, ExpressJS,
+                MongoDB, Mongoose, API, Firebase, PHP, MySQL, Laravel
+                <br />
+                <br />
+                <strong>Familiar:</strong> Material UI, Daisy UI
+                <br />
+                <br />
+                <strong>Tools:</strong> Vs Code, Notepad++, Git, Github, Xampp,
+                Chrome Dev Tools, Heroku, Netlify, Figma, Adobe Photoshop, Adobe
+                XD.
               </p>
-              <div className="social_icon">
-                {" "}
-                <a href="/">
-                  <FiFacebook />
-                </a>
-                <a href="/">
-                  <FiFacebook />
-                </a>
-                <a href="/">
-                  <FiFacebook />
-                </a>
-                <a href="/">
-                  <FiFacebook />
+              <div className="mt-4">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/mdzobaidurislam/"
+                  className="custom_btn"
+                >
+                  Hire me
                 </a>
               </div>
             </div>

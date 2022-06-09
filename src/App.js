@@ -15,7 +15,7 @@ function App() {
         <Route path="" element={<Home />}>
           <Route path="html" element={<Html />} />
           <Route path="react" element={<ReactProject />} />
-          <Route path="/" index element={<Html />} />
+          <Route path="/" index element={<ReactProject />} />
         </Route>
       </Routes>
     </>

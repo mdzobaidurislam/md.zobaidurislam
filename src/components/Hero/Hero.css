@@ -53,3 +53,46 @@ section.hero_section {
     text-align: center;
     border-radius: 50%;
 }
+
+
+@media (max-width: 768px) {
+    .name h3 {
+        font-size: 39px;
+        color: #000;
+    }
+}
+
+@media (max-width: 425px) {
+    .hero_section {
+        padding-bottom: 146px !important;
+    }
+
+    .hero_area {
+        flex-direction: column-reverse;
+        gap: 31px;
+    }
+
+
+
+    .profile_thum img {
+        width: 50%;
+        height: 50%;
+        background: #f0f1ea70;
+        border-radius: 50%;
+    }
+
+    .profile_thum,
+    .job {
+        text-align: center;
+    }
+
+    .hello {
+        text-align: center;
+    }
+
+    .name h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+}

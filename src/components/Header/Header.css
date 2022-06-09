@@ -24,7 +24,7 @@
 }
 
 .custom-nav .navbar-nav li a {
-    color: #ffff;
+    color: #ffff !important;
     line-height: 25px;
     margin: 0 7px;
     font-weight: 600;
@@ -44,4 +44,9 @@
 
 .stikyadded .stiky_logo {
     display: block;
+}
+
+.custom-nav .navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem;
+    color: #fff;
 }

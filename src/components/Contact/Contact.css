@@ -15,3 +15,22 @@
     font-size: 26px;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+
+
+    .contact_details {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .ser-icon {
+        margin-right: 0px;
+    }
+
+    .social_icon {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}

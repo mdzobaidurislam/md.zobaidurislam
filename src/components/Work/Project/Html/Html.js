@@ -11,7 +11,7 @@ import beatles1 from "./../../../project/beatles1.png";
 const Html = () => {
   return (
     <div class="row work-filter mt-5">
-      <div class="col-lg-4 seo webdesign">
+      <div class="col-md-6  col-lg-4 seo webdesign">
         <a target="_blank" href="https://web-marvel.netlify.app/">
           <div class="work-items mt-4">
             <div class="work-thum">
@@ -24,7 +24,7 @@ const Html = () => {
           </div>
         </a>
       </div>
-      <div class="col-lg-4 WORK">
+      <div class="col-md-6  col-lg-4 WORK">
         <a target="_blank" href="https://beatels.netlify.app/">
           <div class="work-items mt-4">
             <div class="work-thum">
@@ -37,7 +37,7 @@ const Html = () => {
           </div>
         </a>
       </div>
-      <div class="col-lg-4 WORK webdesign wordpress">
+      <div class="col-md-6  col-lg-4 WORK webdesign wordpress">
         <a target="_blank" href="https://web-merkury.netlify.app/">
           <div class="work-items mt-4">
             <div class="work-thum">
@@ -50,7 +50,7 @@ const Html = () => {
           </div>
         </a>
       </div>
-      <div class="col-lg-4 WORK webdesign wordpress">
+      <div class="col-md-6  col-lg-4 WORK webdesign wordpress">
         <a target="_blank" href="https://buildcompany.netlify.app/">
           <div class="work-items mt-4">
             <div class="work-thum">
@@ -63,7 +63,7 @@ const Html = () => {
           </div>
         </a>
       </div>
-      <div class="col-lg-4 WORK wordpress">
+      <div class="col-md-6  col-lg-4 WORK wordpress">
         <a target="_blank" href="https://web-take.netlify.app/">
           <div class="work-items mt-4">
             <div class="work-thum">
@@ -76,7 +76,7 @@ const Html = () => {
           </div>
         </a>
       </div>
-      <div class="col-lg-4  webdesign">
+      <div class="col-md-6  col-lg-4  webdesign">
         <a target="_blank" href="https://mdzubaidul.github.io/veer/">
           <div class="work-items mt-4">
             <div class="work-thum">
@@ -89,7 +89,7 @@ const Html = () => {
           </div>
         </a>
       </div>
-      <div class="col-lg-4 wordpress webdesign">
+      <div class="col-md-6  col-lg-4 wordpress webdesign">
         <a target="_blank" href="https://web-switch.netlify.app/">
           <div class="work-items mt-4">
             <div class="work-thum">
@@ -102,7 +102,7 @@ const Html = () => {
           </div>
         </a>
       </div>
-      <div class="col-lg-4 wordpress webdesign">
+      <div class="col-md-6  col-lg-4 wordpress webdesign">
         <a target="_blank" href="https://web-strict.netlify.app/">
           <div class="work-items mt-4">
             <div class="work-thum">
