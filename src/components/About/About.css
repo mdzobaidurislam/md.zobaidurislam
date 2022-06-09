@@ -1,0 +1,52 @@
+.about-content .name h3 {
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+
+/* About  */
+
+.img-fluid.custom-thumbnail {
+    padding: 4.25rem;
+    background-color: #fff;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-social-icon a {
+    position: relative;
+    color: #000;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid #dddd;
+    margin-right: 8px;
+    transition: all .5s;
+    font-size: 20px;
+}
+
+.about-social-icon a:hover {
+    color: #F44336;
+    border-color: #F44336;
+}
+
+.about-content p {
+    color: #878787;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.about-content h2 {
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.custom-text {
+    color: #F44336;
+}

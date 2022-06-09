@@ -1,0 +1,47 @@
+.custom-nav {
+    background: black;
+    top: 0;
+    /* position: absolute; */
+    padding: 20px 0;
+    z-index: 99999;
+    left: 0;
+    right: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.custom-nav.stikyadded {
+    background-color: #fff !important;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.050980392156862744);
+    padding: 15px 0px;
+    position: fixed;
+    top: 0;
+
+
+}
+
+.custom-nav .navbar-nav li a {
+    color: #ffff;
+    line-height: 25px;
+    margin: 0 7px;
+    font-weight: 600;
+    transition: all .3s;
+    font-size: 16px;
+}
+
+
+.stikyadded .navbar-nav li a {
+    color: #000;
+}
+
+.stikyadded .main_logo,
+.stiky_logo {
+    display: none;
+}
+
+.stikyadded .stiky_logo {
+    display: block;
+}
