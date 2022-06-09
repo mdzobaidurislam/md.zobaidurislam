@@ -1,6 +1,7 @@
 import React from "react";
 import jami from "./../../logo/jami.png";
 import "./Hero.css";
+import { Link, NavLink } from "react-router-dom";
 const Hero = () => {
   return (
     <section className="hero_section">
@@ -29,7 +30,11 @@ const Hero = () => {
                 </div>
                 <div className="hero_btn d-flex">
                   <div>
-                    <a href="/" className="custom_btn">
+                    <a
+                      target="_blank"
+                      href="https://drive.google.com/file/d/18DYM3N4eXX3c6-ZTIdCzT0v5xb_kNK6w/view?usp=sharing"
+                      className="custom_btn"
+                    >
                       Download Resume
                     </a>
                   </div>
@@ -43,9 +48,9 @@ const Hero = () => {
         </div>
       </div>
       <div class="scroll-animate">
-        <a href="#" class="scroll">
+        <Link to="#" class="scroll">
           <i class="text-white"></i>
-        </a>
+        </Link>
       </div>
     </section>
   );
