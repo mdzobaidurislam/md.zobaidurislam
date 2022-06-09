@@ -10,7 +10,7 @@ const ReactProject = () => {
   const slug = location.pathname.split("/")[1];
   useEffect(() => {
     const getProjectBYcat = async () => {
-      const url = `http://localhost:8080/api/project?cat=${slug}`;
+      const url = `https://portfolio-server-zobaidur.herokuapp.com/api/project?cat=${slug}`;
       const { data } = await axios.get(url);
       setCategory(data);
       setLoading(true);
