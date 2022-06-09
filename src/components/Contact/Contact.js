@@ -97,12 +97,14 @@ const Contact = () => {
                         type="text"
                         name="name"
                         placeholder="Your name"
+                        required
                       />
                     </div>
                   </div>
                   <div class="col-lg-6">
                     <div class="form-group mt-1 ">
                       <input
+                        required
                         id="email"
                         class="form-control"
                         type="text"
@@ -114,6 +116,7 @@ const Contact = () => {
                   <div class="col-lg-12">
                     <div class="form-group mt-3 mb-3 ">
                       <input
+                        required
                         id="subject"
                         class="form-control"
                         type="text"
@@ -125,6 +128,7 @@ const Contact = () => {
                   <div class="col-lg-12">
                     <div class="form-group mb-3 ">
                       <textarea
+                        required
                         name="message"
                         placeholder="Your message"
                         class="form-control"
