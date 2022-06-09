@@ -3,6 +3,10 @@ import { Outlet } from "react-router";
 import { Link, NavLink } from "react-router-dom";
 import "./Work.css";
 const Work = () => {
+  let activeStyle = {
+    textDecoration: "underline",
+  };
+
   return (
     <section class="section" id="work">
       <div class="container">
@@ -13,10 +17,10 @@ const Work = () => {
               <div class="name">
                 <h3>My Awesome Project</h3>
               </div>
-              <p class="mt-3 mx-auto w-subtitle">
+              {/* <p class="mt-3 mx-auto w-subtitle">
                 It is a long established fact that a reader will be of a page
                 when established fact looking at its layout.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -24,19 +28,18 @@ const Work = () => {
           <div class="col-lg-12 text-center">
             <ul class="work_menu" id="menu-filter">
               <li class="list-inline-item">
-                <NavLink to="/all">All</NavLink>
+                <NavLink
+                  className={({ isActive }) => (isActive ? "active" : "")}
+                  to="/all"
+                >
+                  All
+                </NavLink>
               </li>
               <li class="list-inline-item">
                 <NavLink to="/react">React</NavLink>
               </li>
               <li class="list-inline-item">
                 <NavLink to="/html">Html</NavLink>
-              </li>
-              <li class="list-inline-item">
-                <NavLink to="/">Node Js</NavLink>
-              </li>
-              <li class="list-inline-item">
-                <NavLink to="/all">Wordpress</NavLink>
               </li>
             </ul>
           </div>

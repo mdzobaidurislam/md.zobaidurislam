@@ -12,13 +12,12 @@ const Contact = () => {
         <div class="row justify-content-center">
           <div class="col-lg-12">
             <div class="text-center">
-              <h2>
+              <h3 className="orangeText">
                 Our <span class="font-weight-bold">Contact</span>
-              </h2>
-              <p class="mt-3 mx-auto w-subtitle">
-                It is a long established fact that a reader will be of a page
-                when established fact looking at its layout.
-              </p>
+              </h3>
+              <h1 class="mt-3 mx-auto w-subtitle">
+                Have A Any Question to Contact Me?
+              </h1>
             </div>
           </div>
         </div>

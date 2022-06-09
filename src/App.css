@@ -241,6 +241,7 @@ button.owl-dot.active {
   margin: 5px 0;
   color: #000 !important;
   font-weight: 500;
+  border: 2px solid #f44336;
 }
 
 .work_menu li a.active {

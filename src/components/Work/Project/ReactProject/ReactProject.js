@@ -18,8 +18,6 @@ const ReactProject = () => {
     getProjectBYcat();
   }, [slug]);
 
-  console.log(category);
-
   if (!loading) {
     return <SpinnerLoading />;
   }

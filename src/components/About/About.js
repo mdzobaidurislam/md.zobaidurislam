@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import ab from "./../../logo/ab.jpg";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <section class="section" id="about">
@@ -24,35 +25,11 @@ const About = () => {
                 my skill. Besides, I was learning PHP for 1 year and others
                 languages. Some work was done for the practice.
               </p>
-              <p class="mt-2">
-                I have confidence in my skill. I can work with you depending on
-                my skill. Besides, I was learning PHP for 1 year. Some work was
-                done for the practice.
-              </p>
-              <p class="mt-2">
-                <strong>Front-End Technologies:</strong> React, React Hook,
-                React Bootstrap, HTML5, CSS3, BootStrap, JavaScript,Tailwind CSS{" "}
-                <br />
-                <br />
-                <strong>Back-End Technologies:</strong> NodeJS, ExpressJS,
-                MongoDB, Mongoose, API, Firebase, PHP, MySQL, Laravel
-                <br />
-                <br />
-                <strong>Familiar:</strong> Material UI, Daisy UI
-                <br />
-                <br />
-                <strong>Tools:</strong> Vs Code, Notepad++, Git, Github, Xampp,
-                Chrome Dev Tools, Heroku, Netlify, Figma, Adobe Photoshop, Adobe
-                XD.
-              </p>
+
               <div className="mt-4">
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/mdzobaidurislam/"
-                  className="custom_btn"
-                >
+                <Link to="/about" className="custom_btn">
                   Hire me
-                </a>
+                </Link>
               </div>
             </div>
           </div>

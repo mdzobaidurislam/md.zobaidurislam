@@ -10,7 +10,7 @@ const Header = () => {
     <>
       <Navbar expand="lg" className="custom-nav menuarea">
         <Container fluid>
-          <Navbar.Brand href="#" className="logo pt-0">
+          <Navbar.Brand as={Link} to="/" className="logo pt-0">
             <img class="main_logo" src={logo} alt="logo" />
             <img class="stiky_logo" src={logoStiky} alt="" />
           </Navbar.Brand>
@@ -26,9 +26,9 @@ const Header = () => {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">
+                  <Link class="nav-link" to="about">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#services">
@@ -36,12 +36,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#client">
-                    Client
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#work">
+                  <a class="nav-link" href="/#work">
                     Portfolio
                   </a>
                 </li>
