@@ -18,7 +18,7 @@ const Header = () => {
             <AiOutlineBars />
           </Navbar.Toggle>
           <Navbar.Collapse id="navbarScroll">
-            <Nav className="me-auto my-2 my-lg-0" navbarScroll>
+            <Nav className="ms-auto my-2 my-lg-0" navbarScroll>
               <ul class="navbar-nav text-center">
                 <li class="nav-item active">
                   <Link to="/" class="nav-link active">
