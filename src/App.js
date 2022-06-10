@@ -9,6 +9,7 @@ import SinglePage from "./components/Work/SinglePage/SinglePage";
 import Footer from "./components/Footer/Footer";
 import AboutMe from "./components/AboutMe/AboutMe";
 import AllProject from "./components/Work/Project/All/AllProject";
+import Blog from "./components/Blog/Blog";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="details/:id" element={<SinglePage />} />
         <Route path="about" element={<AboutMe />} />
+        <Route path="blog" element={<Blog />} />
         <Route path="" element={<Home />}>
           <Route path="all" element={<AllProject />} />
           <Route path="html" element={<Html />} />

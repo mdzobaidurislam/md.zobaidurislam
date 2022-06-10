@@ -9,7 +9,7 @@ const Footer = () => {
             <div class="text-center text-white footer-alt">
               <p class="text-muted mt-4 mb-0">
                 {" "}
-                2018 - © Design by Md.Zobaidur Islam
+                2018 - 2022 © Design by Md.Zobaidur Islam
               </p>
             </div>
           </div>
