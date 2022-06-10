@@ -3,6 +3,10 @@ import { useParams } from "react-router";
 import "./SinglePage.css";
 import axios from "axios";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import SpinnerLoading from "./../../Share/SpinnerLoading";
 const SinglePage = () => {
   const [loading, setLoading] = useState(false);
   const [product, setProduct] = useState({});
@@ -17,9 +21,43 @@ const SinglePage = () => {
     getProjectBYcat();
   }, [id]);
 
-  // if (!loading) {
-  //   return <SpinnerLoading />;
-  // }
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
+  if (!loading) {
+    return <SpinnerLoading />;
+  }
   console.log(product);
   return (
     <>
@@ -40,9 +78,26 @@ const SinglePage = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
-              <div className="thum pt-5 pb-5">
-                <img src={product.img} alt="" className="img-fluid" />
-              </div>
+              {product?.img_attr?.length > 0 ? (
+                <Slider {...settings}>
+                  {product?.img_attr.map((item, index) => (
+                    <div>
+                      <div className="thum pt-5 pb-5">
+                        <img
+                          src={item?.img_attr_link}
+                          alt=""
+                          className="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </Slider>
+              ) : (
+                <div className="thum pt-5 pb-5">
+                  <img src={product?.img} alt="" className="img-fluid" />
+                </div>
+              )}
+
               <div className="project_title text-center pt-5 pb-5">
                 <h1>{product.name}</h1>
               </div>
